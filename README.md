@@ -1,4 +1,4 @@
-The Data Journalism Handbook
+The Data Journalism Handbook 数据新闻手册中文版
 ============================
 
 This repository contains the source files for the Data Journalism Handbook. The handbook was 
