@@ -64,7 +64,7 @@ html, body {
 
 .sect1 .imageblock {
   display: inline-block;
-  float: right !important;
+  float: right;
   padding: 0;
   margin-top: -2em;
   padding-left: 1em;
@@ -135,42 +135,16 @@ blockquote p,
   margin-bottom: 1.5em;
 }
 
-.quoteblock {
-  font-style: normal;
-  margin-left: 2em;
-  margin-right: 2em;
-  font-size: 0.9em;
-}
-
 .quoteblock .attribution {
-  text-align: right;
+  margin-left: 1em;
   color: #666;
-}
-
-.quoteblock .attribution br {
-  display: none;
-}
-
-.quoteblock .attribution em:before {
-  content: ', ';
-}
-
-.quoteblock .attribution em {
-  float: right;
-}
-
-.sidebarblock {
-  border: 1px solid #CCC;
-  padding: 1em;
-  background: #F1F1F1;
-  margin-bottom: 1em;
 }
 
 a {
   color: #e04349;
 }
 
-h2, h3, h4, h5, div.title {
+h2, h3, h4 {
   font-family: 'AllerBold', 'OpenSansSemibold', Helvetica, sans-serif;
   color: #e04349;
   margin-bottom: 1em;
@@ -179,10 +153,6 @@ h2, h3, h4, h5, div.title {
 
 h4 {
   font-size: 1em;
-}
-
-h5 {
-  font-size: 0.9em;
 }
 
 ul.toc li {
@@ -283,19 +253,20 @@ footer p {
   background-color: #ce2229 \9;
 }
 
+
 /* Google search box */
 
 .cse .gsc-control-cse, .gsc-control-cse {
     border: 0px !important;
     padding: 0px !important;
-  background: inherit !important;
+	background: inherit !important;
 }
 .gsc-input-box{
-  height:32px !important; 
+	height:32px !important;	
 }
 
 .gsib_a input{
-  margin: 0 0 3px !important;
+	margin: 0 0 3px !important;
 }
 
 table.gsc-search-box {
